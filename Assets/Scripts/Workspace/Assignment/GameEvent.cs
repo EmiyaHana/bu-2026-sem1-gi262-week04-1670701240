@@ -5,8 +5,8 @@ namespace Assignment
     [System.Serializable]
     public class GameEvent
     {
-        [SerializeField] private string eventType;
-        [SerializeField] private string name;
+        [SerializeField] public string eventType;
+        [SerializeField] public string name;
         [SerializeField] private int priority = 1;
 
         public string EventType => eventType;
